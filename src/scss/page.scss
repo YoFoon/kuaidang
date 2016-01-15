@@ -49,6 +49,7 @@ html {
     max-width: 1920px;
     max-height: 1122px;
     margin: 0 auto;
+    background: #FFF;
     .title {
       font-size: 82px;
       padding-top: 100px;
@@ -116,7 +117,40 @@ html {
     }
   }
   .page2 {
-    background: #009922;
+    width: 100%;
+    height: 100%;
+    max-width: 1920px;
+    max-height: 1122px;
+    margin: 0 auto;
+    background: #f2f2f2;
+    .title {
+      font-size: 82px;
+      text-align: center;
+    }
+    .text {
+      font-size: 40px;
+      text-align: center;
+      color: #888888;
+    }
+    .big-text{
+      font-size: 48px;
+      background: url("./dist/images/page2/magnifier.png") no-repeat;
+    }
+    .bl-bag {
+      width: 24.1667%;
+      bottom: 11.619%;
+      left: 6.8229%;
+    }
+    .br-watch{
+      width: 18.125%;
+      bottom: 2.6667%;
+      right: 9.375%;
+    }
+    .tr-jz {
+      width: 14.323%;
+      top: 20%;
+      right: 5.99%;
+    }
   }
   .page3 {
     background: #992211;
@@ -128,8 +162,17 @@ html {
 @media screen and (max-width: 1760px){
   #pageContain .page1{
     .title{
-      font-size: 78px;
       padding-top: 95px;
+    }
+  }
+  #pageContain .page2{
+    .big-text{
+      font-size: 46px;
+    }
+  }
+  #pageContain .page1, #pageContain .page2 {
+    .title{
+      font-size: 78px;
     }
     .text{
       font-size: 38px;
@@ -139,8 +182,17 @@ html {
 @media screen and (max-width: 1680px){
   #pageContain .page1{
     .title{
-      font-size: 75px;
       padding-top: 90px;
+    }
+  }
+  #pageContain .page2{
+    .big-text{
+      font-size: 44px;
+    }
+  }
+  #pageContain .page1, #pageContain .page2 {
+    .title{
+      font-size: 75px;
     }
     .text{
       font-size: 36px;
@@ -150,8 +202,17 @@ html {
 @media screen and (max-width: 1600px){
   #pageContain .page1{
     .title{
-      font-size: 68px;
       padding-top: 80px;
+    }
+  }
+  #pageContain .page2{
+    .big-text{
+      font-size: 40px;
+    }
+  }
+  #pageContain .page1, #pageContain .page2 {
+    .title{
+      font-size: 68px;
     }
     .text{
       font-size: 33px;
@@ -161,8 +222,17 @@ html {
 @media screen and (max-width: 1440px){
   #pageContain .page1{
     .title{
-      font-size: 60px;
       padding-top: 64px;
+    }
+  }
+  #pageContain .page2{
+    .big-text{
+      font-size: 38px;
+    }
+  }
+  #pageContain .page1, #pageContain .page2 {
+    .title{
+      font-size: 60px;
     }
     .text{
       font-size: 30px;
@@ -170,10 +240,19 @@ html {
   }
 }
 @media screen and (max-width: 1280px){
- #pageContain .page1{
+  #pageContain .page1{
+    .title{
+      padding-top: 54px;
+    }
+  }
+  #pageContain .page2{
+    .big-text{
+      font-size: 30px;
+    }
+  }
+ #pageContain .page1, #pageContain .page2 {
     .title{
       font-size: 48px;
-      padding-top: 54px;
     }
     .text{
       font-size: 23px;
@@ -183,8 +262,17 @@ html {
 @media screen and (max-width: 1024px){
   #pageContain .page1{
     .title{
-      font-size: 37px;
       padding-top: 40px;
+    }
+  }
+  #pageContain .page2{
+    .big-text{
+      font-size: 26px;
+    }
+  }
+  #pageContain .page1, #pageContain .page2 {
+    .title{
+      font-size: 37px;
     }
     .text{
       font-size: 18px;
@@ -194,8 +282,17 @@ html {
 @media screen and (max-width: 800px){
   #pageContain .page1{
     .title{
-      font-size: 32px;
       padding-top: 32px;
+    }
+  }
+  #pageContain .page2{
+    .big-text{
+      font-size: 24px;
+    }
+  }
+  #pageContain .page1, #pageContain .page2 {
+    .title{
+      font-size: 32px;
     }
     .text{
       font-size: 16px;
