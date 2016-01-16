@@ -43,6 +43,8 @@ html {
     transition-duration: 0ms !important;
     -webkit-transition-duration: 0ms !important;
   }
+
+  /*-------------------------------- 第一页 ------------------------------------*/
   .page1 {
     width: 100%;
     height: 100%;
@@ -52,7 +54,7 @@ html {
     background: #FFF;
     .title {
       font-size: 82px;
-      padding-top: 100px;
+      padding-top: 5.9126%;
       text-align: center;
     }
     .text {
@@ -116,6 +118,8 @@ html {
       right: 17.7083%;
     }
   }
+
+  /*-------------------------------- 第二页 ------------------------------------*/
   .page2 {
     width: 100%;
     height: 100%;
@@ -145,20 +149,153 @@ html {
       right: 5.99%;
     }
   }
+
+  /*-------------------------------- 第三页 ------------------------------------*/
   .page3 {
-    background: #992211;
-  }
-  .page4 {
-    background: #ff00ff;
-  }
-}
-@media screen and (max-width: 1760px){
-  #pageContain .page1{
-    .title{
-      padding-top: 95px;
+    width: 100%;
+    height: 100%;
+    max-width: 1920px;
+    max-height: 1050px;
+    margin: 0 auto;
+    background: #FFF;
+    .title {
+      font-size: 82px;
+      padding-top: 2.7143%;
+      text-align: center;
+    }
+    .text {
+      font-size: 40px;
+      text-align: center;
+      color: #888888;
+    }
+    .up-line {
+      width: 0;
+      border: 1px solid #d3d3d3;
+      z-index: 5;
+    }
+    .bottom-line {
+      width: 0;
+      border: 1px solid #d3d3d3;
+      z-index: 5;
+    }
+    .discount-text {
+      z-index: 9;
+    }
+    .left-bag {
+      .up-line {
+        height: 16.9524%;
+        top: 0;
+        left: 18.3333%;
+      }
+      .left-bag-img {
+        width: 15.5729%;
+        height: 30.9524%;
+        top: 16.381%;
+        left: 9.4271%;
+        z-index: 9;
+      }
+      .bottom-line {
+        height: 16.9524%;
+        top: 35.2381%;
+        left: 18.3333%;
+      }
+      .discount-text{
+        width: 4.1667%;
+        height: 16%;
+        top: 52.1905%;
+        left: 16.5104%;
+      }
+    }
+    .center-watch {
+      .up-line {
+        height: 32.4762%;
+        top: 23.3333%;
+        left: 44.2188%;
+      }
+      .center-watch-img {
+        width: 9.1667%;
+        height: 29.5238%;
+        top: 54.7619%;
+        left: 39.9479%;
+        z-index: 9;
+      }
+      .bottom-line {
+        height: 15.81%;
+        top: 70.4762%;
+        left: 44.1146%;
+      }
+      .discount-text{
+        width: 3.0729%;
+        height: 11.619%;
+        top: 86.0952%;
+        left: 42.7064%;
+      }
+    }
+    .right-watch {
+      .up-line {
+        height: 17.9048%;
+        top: 0;
+        right: 25.7292%;
+      }
+      .right-watch-img {
+        width: 6.9271%;
+        height: 21.619%;
+        top: 17.7143%;
+        right: 22.1354%;
+        z-index: 9;
+      }
+      .bottom-line {
+        height: 15.8095%;
+        top: 30.1905%;
+        right: 25.7291%;
+      }
+      .discount-text{
+        width: 3.9062%;
+        height: 14.8571%;
+        top: 45.9048%;
+        right: 23.9583%;
+      }
+    }
+    .right-bag {
+      .up-line {
+        height: 53.619%;
+        top: 0;
+        right: 15.625%;
+      }
+      .right-bag-img {
+        width: 11.4061%;
+        height: 27.238%;
+        top: 53.3333%;
+        right: 10.1563%;
+        z-index: 9;
+      }
+      .bottom-line {
+        height: 15.9524%;
+        top: 67.0376%;
+        right: 15.625%;
+      }
+      .discount-text{
+        width: 4.1667%;
+        height: 16%;
+        top: 83.5238%;
+        right: 13.5417%;
+      }
     }
   }
-  #pageContain .page1, #pageContain .page2 {
+
+  /*-------------------------------- 第四页 ------------------------------------*/
+  .page4 {
+    width: 100%;
+    height: 100%;
+    max-width: 1920px;
+    max-height: 1122px;
+    margin: 0 auto;
+    background: #f2f2f2;
+  }
+}
+
+@media screen and (max-width: 1760px){
+  #pageContain .page1, #pageContain .page3 {
     .title{
       font-size: 78px;
     }
@@ -168,12 +305,7 @@ html {
   }
 }
 @media screen and (max-width: 1680px){
-  #pageContain .page1{
-    .title{
-      padding-top: 90px;
-    }
-  }
-  #pageContain .page1, #pageContain .page2 {
+  #pageContain .page1, #pageContain .page3 {
     .title{
       font-size: 75px;
     }
@@ -183,12 +315,7 @@ html {
   }
 }
 @media screen and (max-width: 1600px){
-  #pageContain .page1{
-    .title{
-      padding-top: 80px;
-    }
-  }
-  #pageContain .page1, #pageContain .page2 {
+  #pageContain .page1, #pageContain .page3 {
     .title{
       font-size: 68px;
     }
@@ -198,12 +325,7 @@ html {
   }
 }
 @media screen and (max-width: 1440px){
-  #pageContain .page1{
-    .title{
-      padding-top: 64px;
-    }
-  }
-  #pageContain .page1, #pageContain .page2 {
+  #pageContain .page1, #pageContain .page3 {
     .title{
       font-size: 60px;
     }
@@ -213,12 +335,7 @@ html {
   }
 }
 @media screen and (max-width: 1280px){
-  #pageContain .page1{
-    .title{
-      padding-top: 54px;
-    }
-  }
- #pageContain .page1, #pageContain .page2 {
+  #pageContain .page1, #pageContain .page3 {
     .title{
       font-size: 48px;
     }
@@ -228,12 +345,7 @@ html {
   }
 }
 @media screen and (max-width: 1024px){
-  #pageContain .page1{
-    .title{
-      padding-top: 40px;
-    }
-  }
-  #pageContain .page1, #pageContain .page2 {
+  #pageContain .page1, #pageContain .page3 {
     .title{
       font-size: 37px;
     }
@@ -243,12 +355,7 @@ html {
   }
 }
 @media screen and (max-width: 800px){
-  #pageContain .page1{
-    .title{
-      padding-top: 32px;
-    }
-  }
-  #pageContain .page1, #pageContain .page2 {
+  #pageContain .page1, #pageContain .page3 {
     .title{
       font-size: 32px;
     }
