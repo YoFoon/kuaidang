@@ -124,17 +124,10 @@ html {
     margin: 0 auto;
     background: #f2f2f2;
     .title {
-      font-size: 82px;
-      text-align: center;
-    }
-    .text {
-      font-size: 40px;
-      text-align: center;
-      color: #888888;
-    }
-    .big-text{
-      font-size: 48px;
-      background: url("./dist/images/page2/magnifier.png") no-repeat;
+      width: 23.2292%;
+      top: 5.7143%;
+      left: 50%;
+      margin-left: -11.6146%;
     }
     .bl-bag {
       width: 24.1667%;
@@ -165,11 +158,6 @@ html {
       padding-top: 95px;
     }
   }
-  #pageContain .page2{
-    .big-text{
-      font-size: 46px;
-    }
-  }
   #pageContain .page1, #pageContain .page2 {
     .title{
       font-size: 78px;
@@ -183,11 +171,6 @@ html {
   #pageContain .page1{
     .title{
       padding-top: 90px;
-    }
-  }
-  #pageContain .page2{
-    .big-text{
-      font-size: 44px;
     }
   }
   #pageContain .page1, #pageContain .page2 {
@@ -205,11 +188,6 @@ html {
       padding-top: 80px;
     }
   }
-  #pageContain .page2{
-    .big-text{
-      font-size: 40px;
-    }
-  }
   #pageContain .page1, #pageContain .page2 {
     .title{
       font-size: 68px;
@@ -223,11 +201,6 @@ html {
   #pageContain .page1{
     .title{
       padding-top: 64px;
-    }
-  }
-  #pageContain .page2{
-    .big-text{
-      font-size: 38px;
     }
   }
   #pageContain .page1, #pageContain .page2 {
@@ -245,11 +218,6 @@ html {
       padding-top: 54px;
     }
   }
-  #pageContain .page2{
-    .big-text{
-      font-size: 30px;
-    }
-  }
  #pageContain .page1, #pageContain .page2 {
     .title{
       font-size: 48px;
@@ -265,11 +233,6 @@ html {
       padding-top: 40px;
     }
   }
-  #pageContain .page2{
-    .big-text{
-      font-size: 26px;
-    }
-  }
   #pageContain .page1, #pageContain .page2 {
     .title{
       font-size: 37px;
@@ -283,11 +246,6 @@ html {
   #pageContain .page1{
     .title{
       padding-top: 32px;
-    }
-  }
-  #pageContain .page2{
-    .big-text{
-      font-size: 24px;
     }
   }
   #pageContain .page1, #pageContain .page2 {
