@@ -45,6 +45,18 @@ html {
   }
 
   /*-------------------------------- 第一页 ------------------------------------*/
+  .title {
+    -webkit-animation:dragTop .7s ease-in-out both;
+    -moz-animation:dragTop .7s ease-in-out both;
+    -ms-animation:dragTop .7s ease-in-out both;
+    animation:dragTop .7s ease-in-out both;
+  }
+  .text {
+    -webkit-animation:dragTop .7s ease-in-out both;
+    -moz-animation:dragTop .7s ease-in-out both;
+    -ms-animation:dragTop .7s ease-in-out both;
+    animation:dragTop .7s ease-in-out both;
+  }
   .page1 {
     width: 100%;
     height: 100%;
@@ -186,6 +198,10 @@ html {
         height: 16.9524%;
         top: 0;
         left: 18.3333%;
+        -webkit-animation:dragDown 1s ease-in-out both;
+        -moz-animation:dragDown 1s ease-in-out both;
+        -ms-animation:dragDown 1s ease-in-out both;
+        animation:dragDown 1s ease-in-out both;
       }
       .left-bag-img {
         width: 15.5729%;
@@ -193,17 +209,29 @@ html {
         top: 16.381%;
         left: 9.4271%;
         z-index: 9;
+        -webkit-animation:dragDown 1s ease-in-out 1s both;
+        -moz-animation:dragDown 1s ease-in-out 1s both;
+        -ms-animation:dragDown 1s ease-in-out 1s both;
+        animation:dragDown 1s ease-in-out 1s both;
       }
       .bottom-line {
         height: 16.9524%;
         top: 35.2381%;
         left: 18.3333%;
+        -webkit-animation:dragDown 1s ease-in-out 2s both;
+        -moz-animation:dragDown 1s ease-in-out 2s both;
+        -ms-animation:dragDown 1s ease-in-out 2s both;
+        animation:dragDown 1s ease-in-out 2s both;
       }
       .discount-text{
         width: 4.1667%;
         //height: 16%;
         top: 52.1905%;
         left: 16.5104%;
+        -webkit-animation:dragDown 1s ease-in-out 3s both;
+        -moz-animation:dragDown 1s ease-in-out 3s both;
+        -ms-animation:dragDown 1s ease-in-out 3s both;
+        animation:dragDown 1s ease-in-out 3s both;
       }
     }
     .center-watch {
@@ -211,6 +239,10 @@ html {
         height: 32.4762%;
         top: 23.3333%;
         left: 44.2188%;
+        -webkit-animation:dragDown 1s ease-in-out 4s both;
+        -moz-animation:dragDown 1s ease-in-out 4s both;
+        -ms-animation:dragDown 1s ease-in-out 4s both;
+        animation:dragDown 1s ease-in-out 4s both;
       }
       .center-watch-img {
         width: 9.1667%;
@@ -218,17 +250,29 @@ html {
         top: 54.7619%;
         left: 39.9479%;
         z-index: 9;
+        -webkit-animation:dragDown 1s ease-in-out 5s both;
+        -moz-animation:dragDown 1s ease-in-out 5s both;
+        -ms-animation:dragDown 1s ease-in-out 5s both;
+        animation:dragDown 1s ease-in-out 5s both;
       }
       .bottom-line {
         height: 15.81%;
         top: 70.4762%;
         left: 44.1146%;
+        -webkit-animation:dragDown 1s ease-in-out 6s both;
+        -moz-animation:dragDown 1s ease-in-out 6s both;
+        -ms-animation:dragDown 1s ease-in-out 6s both;
+        animation:dragDown 1s ease-in-out 6s both;
       }
       .discount-text{
         width: 3.0729%;
         height: 11.619%;
         top: 86.0952%;
         left: 42.7064%;
+        -webkit-animation:dragDown 1s ease-in-out 7s both;
+        -moz-animation:dragDown 1s ease-in-out 7s both;
+        -ms-animation:dragDown 1s ease-in-out 7s both;
+        animation:dragDown 1s ease-in-out 7s both;
       }
     }
     .right-watch {
@@ -236,6 +280,10 @@ html {
         height: 17.9048%;
         top: 0;
         right: 25.7292%;
+        -webkit-animation:dragDown 1s ease-in-out both;
+        -moz-animation:dragDown 1s ease-in-out both;
+        -ms-animation:dragDown 1s ease-in-out both;
+        animation:dragDown 1s ease-in-out both;
       }
       .right-watch-img {
         width: 6.9271%;
@@ -243,17 +291,29 @@ html {
         top: 17.7143%;
         right: 22.1354%;
         z-index: 9;
+        -webkit-animation:dragDown 1s ease-in-out 1s both;
+        -moz-animation:dragDown 1s ease-in-out 1s both;
+        -ms-animation:dragDown 1s ease-in-out 1s both;
+        animation:dragDown 1s ease-in-out 1s both;
       }
       .bottom-line {
         height: 15.8095%;
         top: 30.1905%;
         right: 25.7291%;
+        -webkit-animation:dragDown 1s ease-in-out 2s both;
+        -moz-animation:dragDown 1s ease-in-out 2s both;
+        -ms-animation:dragDown 1s ease-in-out 2s both;
+        animation:dragDown 1s ease-in-out 2s both;
       }
       .discount-text{
         width: 3.9062%;
         height: 14.8571%;
         top: 45.9048%;
         right: 23.9583%;
+        -webkit-animation:dragDown 1s ease-in-out 3s both;
+        -moz-animation:dragDown 1s ease-in-out 3s both;
+        -ms-animation:dragDown 1s ease-in-out 3s both;
+        animation:dragDown 1s ease-in-out 3s both;
       }
     }
     .right-bag {
@@ -261,6 +321,10 @@ html {
         height: 53.619%;
         top: 0;
         right: 15.625%;
+        -webkit-animation:dragDown 1s ease-in-out 4s both;
+        -moz-animation:dragDown 1s ease-in-out 4s both;
+        -ms-animation:dragDown 1s ease-in-out 4s both;
+        animation:dragDown 1s ease-in-out 4s both;
       }
       .right-bag-img {
         width: 11.4061%;
@@ -268,17 +332,29 @@ html {
         top: 53.3333%;
         right: 10.1563%;
         z-index: 9;
+        -webkit-animation:dragDown 1s ease-in-out 5s both;
+        -moz-animation:dragDown 1s ease-in-out 5s both;
+        -ms-animation:dragDown 1s ease-in-out 5s both;
+        animation:dragDown 1s ease-in-out 5s both;
       }
       .bottom-line {
         height: 15.9524%;
         top: 67.0376%;
         right: 15.625%;
+        -webkit-animation:dragDown 1s ease-in-out 6s both;
+        -moz-animation:dragDown 1s ease-in-out 6s both;
+        -ms-animation:dragDown 1s ease-in-out 6s both;
+        animation:dragDown 1s ease-in-out 6s both;
       }
       .discount-text{
         width: 4.1667%;
         height: 16%;
         top: 83.5238%;
         right: 13.5417%;
+        -webkit-animation:dragDown 1s ease-in-out 7s both;
+        -moz-animation:dragDown 1s ease-in-out 7s both;
+        -ms-animation:dragDown 1s ease-in-out 7s both;
+        animation:dragDown 1s ease-in-out 7s both;
       }
     }
   }
@@ -362,5 +438,123 @@ html {
     .text{
       font-size: 16px;
     }
+  }
+}
+
+@keyframes dragTop {
+  0% {
+    opacity:0;
+    transform:translateY(-70px)
+  }
+  60% {
+    opacity:1;
+    transform:translateY(30px)
+  }
+  90% {
+    transform:translateY(-5px)
+  }
+  97% {
+    transform:translateY(-1px)
+  }
+  100% {
+    transform:translateY(0px)
+  }
+}
+@-webkit-keyframes dragTop {
+  0% {
+    opacity:0;
+    -webkit-transform:translateY(-70px)
+  }
+  60% {
+    opacity:1;
+    -webkit-transform:translateY(30px)
+  }
+  90% {
+    -webkit-transform:translateY(-5px)
+  }
+  97% {
+    -webkit-transform:translateY(-1px)
+  }
+  100% {
+    -webkit-transform:translateY(0px)
+  }
+}
+@-moz-keyframes dragTop {
+  0% {
+    opacity:0;
+    -moz-transform:translateY(-70px)
+  }
+  60% {
+    opacity:1;
+    -moz-transform:translateY(30px)
+  }
+  90% {
+    -moz-transform:translateY(-5px)
+  }
+  97% {
+    -moz-transform:translateY(-1px)
+  }
+  100% {
+    -moz-transform:translateY(0px)
+  }
+}
+@-ms-keyframes dragTop {
+  0% {
+    opacity:0;
+    -ms-transform:translateY(-70px)
+  }
+  60% {
+    opacity:1;
+    -ms-transform:translateY(30px)
+  }
+  90% {
+    -ms-transform:translateY(-5px)
+  }
+  97% {
+    -ms-transform:translateY(-1px)
+  }
+  100% {
+    -ms-transform:translateY(0px)
+  }
+}
+
+@-webkit-keyframes dragDown {
+  0% {
+    opacity:0;
+    -webkit-transform:translateY(-70px)
+  }
+  100% {
+    opacity:1;
+    -webkit-transform:translateY(0px)
+  }
+}
+@-o-keyframes dragDown {
+  0% {
+    opacity:0;
+    -o-transform:translateY(-70px)
+  }
+  100% {
+    opacity:1;
+    -o-transform:translateY(0px)
+  }
+}
+@-moz-keyframes dragDown {
+  0% {
+    opacity:0;
+    -moz-transform:translateY(-70px)
+  }
+  100% {
+    opacity:1;
+    -moz-transform:translateY(0px)
+  }
+}
+@keyframes dragDown {
+  0% {
+    opacity:0;
+    transform:translateY(-70px)
+  }
+  100% {
+    opacity:1;
+    transform:translateY(0px)
   }
 }
