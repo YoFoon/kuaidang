@@ -52,10 +52,10 @@ html {
     animation:dragTop .7s ease-in-out both;
   }
   .text {
-    -webkit-animation:dragTop .7s ease-in-out both;
-    -moz-animation:dragTop .7s ease-in-out both;
-    -ms-animation:dragTop .7s ease-in-out both;
-    animation:dragTop .7s ease-in-out both;
+    -webkit-animation:dragTop .7s ease-in-out .3s both;
+    -moz-animation:dragTop .7s ease-in-out .3s both;
+    -ms-animation:dragTop .7s ease-in-out .3s both;
+    animation:dragTop .7s ease-in-out .3s both;
   }
   .page1 {
     width: 100%;
@@ -364,9 +364,19 @@ html {
     width: 100%;
     height: 100%;
     max-width: 1920px;
-    max-height: 1122px;
+    max-height: 1050px;
     margin: 0 auto;
     background: #f2f2f2;
+    .title {
+      font-size: 82px;
+      padding-top: 2.7143%;
+      text-align: center;
+    }
+    .text {
+      font-size: 40px;
+      text-align: center;
+      color: #888888;
+    }
   }
 }
 
