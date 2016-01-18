@@ -116,36 +116,60 @@ html {
       // height: 14.6875%;
       bottom: 3.5650%;
       left: 25.1042%;
+      -webkit-animation:showPic 2s ease-in-out both;
+      -moz-animation:showPic 2s ease-in-out both;
+      -ms-animation:showPic 2s ease-in-out both;
+      animation:showPic 2s ease-in-out both;
     }
     .bl-jz {
       width: 2.1354%;
       // height: 2.6042%;
       bottom: 6.9519%;
       left: 17.7083%;
+      -webkit-animation:showPic 2s ease-in-out both;
+      -moz-animation:showPic 2s ease-in-out both;
+      -ms-animation:showPic 2s ease-in-out both;
+      animation:showPic 2s ease-in-out both;
     }
     .br-cam {
       width: 9.6354%;
       // height: 12.5520%;
       bottom: 9.2691%;
       right: 4.4792%;
+      -webkit-animation:showPic 2s ease-in-out both;
+      -moz-animation:showPic 2s ease-in-out both;
+      -ms-animation:showPic 2s ease-in-out both;
+      animation:showPic 2s ease-in-out both;
     }
     .br-key {
       width: 13.8020%;
       // height: 6.4062%;
       top: 39.9287%;
       right: 6.25%;
+      -webkit-animation:showPic 2s ease-in-out both;
+      -moz-animation:showPic 2s ease-in-out both;
+      -ms-animation:showPic 2s ease-in-out both;
+      animation:showPic 2s ease-in-out both;
     }
     .br-ph {
       width: 4.6354%;
       // height: 6.5104%;
       bottom: 0;
       right: 34.375%;
+      -webkit-animation:showPic 2s ease-in-out both;
+      -moz-animation:showPic 2s ease-in-out both;
+      -ms-animation:showPic 2s ease-in-out both;
+      animation:showPic 2s ease-in-out both;
     }
     .br-watch {
       width: 5.1042%;
       // height: 9.7396%;
       bottom: 21.5686%;
       right: 23.0208%;
+      -webkit-animation:showPic 2s ease-in-out both;
+      -moz-animation:showPic 2s ease-in-out both;
+      -ms-animation:showPic 2s ease-in-out both;
+      animation:showPic 2s ease-in-out both;
     }
     .cl-pc {
       width: 14.6354%;
@@ -153,18 +177,30 @@ html {
       bottom: 31.1943%;
       left: 4.7917%;
       z-index: 2;
+      -webkit-animation:showPic 2s ease-in-out both;
+      -moz-animation:showPic 2s ease-in-out both;
+      -ms-animation:showPic 2s ease-in-out both;
+      animation:showPic 2s ease-in-out both;
     }
     .tl-pc{
       width: 18.1771%;
       // height: 15.2604%;
       top: 8.5561%;
       left: 7.3958%;
+      -webkit-animation:showPic 2s ease-in-out both;
+      -moz-animation:showPic 2s ease-in-out both;
+      -ms-animation:showPic 2s ease-in-out both;
+      animation:showPic 2s ease-in-out both;
     }
     .tr-ph {
       width: 4.8438%;
       // height: 9.2188%;
       top: 9.2691%;
       right: 17.7083%;
+      -webkit-animation:showPic 2s ease-in-out both;
+      -moz-animation:showPic 2s ease-in-out both;
+      -ms-animation:showPic 2s ease-in-out both;
+      animation:showPic 2s ease-in-out both;
     }
   }
 
@@ -186,16 +222,28 @@ html {
       width: 24.1667%;
       bottom: 11.619%;
       left: 6.8229%;
+      -webkit-animation:showPic 2s ease-in-out both;
+      -moz-animation:showPic 2s ease-in-out both;
+      -ms-animation:showPic 2s ease-in-out both;
+      animation:showPic 2s ease-in-out both;
     }
     .br-watch{
       width: 18.125%;
       bottom: 2.6667%;
+      -webkit-animation:showPic 2s ease-in-out both;
+      -moz-animation:showPic 2s ease-in-out both;
+      -ms-animation:showPic 2s ease-in-out both;
+      animation:showPic 2s ease-in-out both;
       right: 9.375%;
     }
     .tr-jz {
       width: 14.323%;
       top: 20%;
       right: 5.99%;
+      -webkit-animation:showPic 2s ease-in-out both;
+      -moz-animation:showPic 2s ease-in-out both;
+      -ms-animation:showPic 2s ease-in-out both;
+      animation:showPic 2s ease-in-out both;
     }
     .paper {
       width: 24.9497%;
@@ -920,7 +968,7 @@ html {
   }
   50%{
     opacity: 0;
-    transform:translateX(300px);
+    transform:translateX(250px);
   }
   80%{
     opacity: 0;
@@ -940,7 +988,7 @@ html {
   }
   50%{
     opacity: 0;
-    transform:translateX(300px);
+    transform:translateX(250px);
   }
   80%{
     opacity: 0;
@@ -960,7 +1008,7 @@ html {
   }
   50%{
     opacity: 0;
-    transform:translateX(300px);
+    transform:translateX(250px);
   }
   80%{
     opacity: 0;
@@ -980,7 +1028,7 @@ html {
   }
   50%{
     opacity: 0;
-    transform:translateX(300px);
+    transform:translateX(250px);
   }
   80%{
     opacity: 0;
@@ -1160,6 +1208,39 @@ html {
 }
 @keyframes showLight {
   0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes showPic {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-o-keyframes showPic {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-moz-keyframes showPic {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes showPic {
+ 0% {
     opacity: 0;
   }
   100% {
