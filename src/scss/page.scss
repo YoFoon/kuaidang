@@ -44,7 +44,7 @@ html {
     -webkit-transition-duration: 0ms !important;
   }
 
-  /*-------------------------------- 第一页 ------------------------------------*/
+  /*-------------------------------- page 公共元素 ------------------------------------*/
   .title {
     -webkit-animation:dragTop .7s ease-in-out both;
     -moz-animation:dragTop .7s ease-in-out both;
@@ -57,6 +57,8 @@ html {
     -ms-animation:dragTop .7s ease-in-out .3s both;
     animation:dragTop .7s ease-in-out .3s both;
   }
+
+  /*-------------------------------- 第一页 ------------------------------------*/
   .page1 {
     width: 100%;
     height: 100%;
@@ -64,6 +66,40 @@ html {
     max-height: 1122px;
     margin: 0 auto;
     background: #FFF;
+    
+    .headNav {
+      z-index: 15;
+      position:absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      background: #333333;
+      height: 60px;
+      .logo {
+        width: 100px;
+        height: 60px;
+        background: url('../images/page1/logo.png') 0 center no-repeat;
+        background-size: 60px 30px;
+        margin-left: 100px;
+        float: left;
+      }
+      ul {
+        float: right;
+        li {
+          float: left;
+          color: #adadad;
+          list-style: none;
+          line-height: 60px;
+          padding-right: 20px;
+          font-size: 16px;
+          cursor: pointer;
+        }
+        li: hover {
+          color: #FFF;
+        }
+      }
+    }
+
     .title {
       font-size: 82px;
       padding-top: 5.9126%;
