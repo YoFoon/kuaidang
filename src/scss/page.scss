@@ -74,6 +74,31 @@ html {
       text-align: center;
       color: #888888;
     }
+    .c-ami {
+      width: 35.9896%;
+      top: 38.057%;
+      left: 50%;
+      margin-left: -17.9688%;
+      z-index: 9;
+    }
+    .c-cam {
+      width: 8.125%;
+      top: 42.4242%;
+      left: 50%;
+      margin-left: -9.2188%;
+    }
+    .c-dor {
+      width: 12.0312%;
+      top: 42.4242%;
+      left: 50%;
+      margin-right: -9.9479%;
+    }
+    .c-ph{
+      width: 10.2604%;
+      top: 43.9394%;
+      left: 50%;
+      margin-left: -21.9271%;
+    }
     .bl-bag {
       width: 16.8229%;
       // height: 14.6875%;
@@ -236,8 +261,8 @@ html {
     }
     .center-watch {
       .up-line {
-        height: 32.4762%;
-        top: 23.3333%;
+        height: 28.4762%;
+        top: 27.3333%;
         left: 44.2188%;
         -webkit-animation:dragDown 1s ease-in-out 4s both;
         -moz-animation:dragDown 1s ease-in-out 4s both;
