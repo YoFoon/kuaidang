@@ -122,30 +122,30 @@ html {
       top: 42.4242%;
       left: 50%;
       margin-left: -13.2813%;
-      -webkit-animation:camLeft 4s ease-in-out infinite both;
-      -moz-animation:camLeft 4s ease-in-out infinite both;
-      -ms-animation:camLeft 4s ease-in-out infinite both;
-      animation:camLeft 4s ease-in-out infinite both;
+      -webkit-animation:camLeft 4s linear infinite both;
+      -moz-animation:camLeft 4s linear infinite both;
+      -ms-animation:camLeft 4s linear infinite both;
+      animation:camLeft 4s linear infinite both;
     }
     .c-dor {
       width: 12.0312%;
       top: 42.4242%;
       left: 50%;
       margin-right: -15.9896%;
-      -webkit-animation:dorLeft 4s ease-in-out infinite both;
-      -moz-animation:dorLeft 4s ease-in-out infinite both;
-      -ms-animation:dorLeft 4s ease-in-out infinite both;
-      animation:dorLeft 4s ease-in-out infinite both;
+      -webkit-animation:dorLeft 4s linear infinite both;
+      -moz-animation:dorLeft 4s linear infinite both;
+      -ms-animation:dorLeft 4s linear infinite both;
+      animation:dorLeft 4s linear infinite both;
     }
     .c-ph{
       width: 10.2604%;
       top: 43.9394%;
       left: 50%;
       margin-left: -27.0833%;
-      -webkit-animation:phLeft 4s ease-in-out  infinite both;
-      -moz-animation:phLeft 4s ease-in-out infinite both;
-      -ms-animation:phLeft 4s ease-in-out infinite both;
-      animation:phLeft 4s ease-in-out infinite both;
+      -webkit-animation:phLeft 4s linear  infinite both;
+      -moz-animation:phLeft 4s linear infinite both;
+      -ms-animation:phLeft 4s linear infinite both;
+      animation:phLeft 4s linear infinite both;
     }
     .bl-bag {
       width: 16.8229%;
@@ -292,20 +292,20 @@ html {
       top: 27.3333%;
       left: 50%;
       margin-left: -9.6094%;
-      -webkit-animation:showLight 2s ease-in-out .3s both;
-      -moz-animation:showLight 2s ease-in-out .3s both;
-      -ms-animation:showLight 2s ease-in-out .3s both;
-      animation:showLight 2s ease-in-out .3s both;
+      -webkit-animation:showLight 4s ease-in-out .3s both;
+      -moz-animation:showLight 4s ease-in-out .3s both;
+      -ms-animation:showLight 4s ease-in-out .3s both;
+      animation:showLight 4s ease-in-out .3s both;
     }
     .big-paper {
       width: 11.9271%;
       top: 28.5714%;
       left: 50%;
       margin-left: -5.9635%;
-      -webkit-animation:showText 2s ease-in-out .3s both;
-      -moz-animation:showText 2s ease-in-out .3s both;
-      -ms-animation:showText 2s ease-in-out .3s both;
-      animation:showText 2s ease-in-out .3s both;
+      -webkit-animation:showText 4s ease-in-out .3s both;
+      -moz-animation:showText 4s ease-in-out .3s both;
+      -ms-animation:showText 4s ease-in-out .3s both;
+      animation:showText 4s ease-in-out .3s both;
     }
   }
 
@@ -543,8 +543,8 @@ html {
       animation:hammerShow .5s ease-in-out 2s both;
     }
     .tl-bag {
-      width: 21.0938%;
-      top: 27.4286%;
+      width: 19.0938%;
+      top: 16.4286%;
       left: 5.8333%;
       -webkit-animation:hammerShow .5s ease-in-out 3s both;
       -moz-animation:hammerShow .5s ease-in-out 3s both;
