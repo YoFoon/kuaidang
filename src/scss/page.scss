@@ -1,3 +1,14 @@
+// mixin
+@mixin round($wh:45px,$color:rgba(0,0,0,0),$top:0,$left:0) {
+  width: $wh;
+  height: $wh;
+  border-radius: 50%;
+  background: $color;
+  top:$top;
+  left:$left;
+  z-index:-1;
+}
+
 html {
   -ms-touch-action: none;  /* 阻止windows Phone 的默认触摸事件 */
   overflow: hidden;
@@ -307,6 +318,24 @@ html {
       -ms-animation:showText 4s ease-in-out .3s both;
       animation:showText 4s ease-in-out .3s both;
     }
+    .m-round1{
+      @include round($color:rgba(255,0,0,0.3),$top:20.7%,$left:18.4375%)
+    }
+    .m-round2{
+      @include round($color:rgba(255,192,136,0.3),$top:11%,$left:63.75%)
+    }
+    .m-round3{
+      @include round($color:rgba(102,129,226,0.3),$top:29.14%,$left:31.9%) 
+    }
+    .m-round4{
+      @include round($wh:60px,$color:rgba(123,226,95,0.3),$top:39.8%,$left:78.95%)
+    }
+    .m-round5{
+      @include round($wh:33px,$color:rgba(206,85,255,0.3),$top:64.38%,$left:30.2%)
+    }
+    .m-round6{
+      @include round($wh:66px,$color:rgba(0,136,240,0.3),$top:68.19%,$left:70.1325%)
+    }
   }
 
   /*-------------------------------- 第三页 ------------------------------------*/
@@ -526,7 +555,7 @@ html {
     }
     .bl-watch {
       width: 10.052%;
-      bottom: 10.2857%;
+      bottom: 11.2857%;
       left: 20.3125%;
       -webkit-animation:hammerShow .5s ease-in-out 1s both;
       -moz-animation:hammerShow .5s ease-in-out 1s both;
@@ -535,8 +564,8 @@ html {
     }
     .br-watch {
       width: 9,2188%;
-      bottom: 0;
-      right: 21.3542%;
+      bottom: 60px;
+      right: 19.3542%;
       -webkit-animation:hammerShow .5s ease-in-out 2s both;
       -moz-animation:hammerShow .5s ease-in-out 2s both;
       -ms-animation:hammerShow .5s ease-in-out 2s both;
@@ -554,7 +583,7 @@ html {
     .tr-bag {
       width: 17.7406%;
       top: 0;
-      right: 8.2813%;
+      right: 6.2813%;
       -webkit-animation:hammerShow .5s ease-in-out 4s both;
       -moz-animation:hammerShow .5s ease-in-out 4s both;
       -ms-animation:hammerShow .5s ease-in-out 4s both;
@@ -575,6 +604,32 @@ html {
       top: 63.3438%;
       left: 50%;
       margin-left: -8.6958%;
+    }
+    .g-footer{
+      bottom:0;
+      left:0;
+      width:100%;
+      height:60px;
+      background:#fafafa;
+      color:#676767;
+      text-align:center;
+      p{
+        margin-top:10px;
+        font-size:16px;
+        line-height:22px;
+      }
+    }
+    .m-round1{
+      @include round($color:rgba(255,0,0,0.2),$top:7.8%,$left:14.375%);
+    }
+    .m-round2{
+      @include round($color:rgba(255,192,136,1),$top:24.95%,$left:72.9%); 
+    }
+    .m-round3{
+      @include round($wh:33px,$color:rgba(206,85,255,1),$top:93.1%,$left:25%);
+    }
+    .m-round4{
+      @include round($wh:66px,$color:rgba(0,136,240,0.2),$top:67.2%,$left:60.39%);
     }
   }
 }
@@ -1283,3 +1338,5 @@ html {
     opacity: 1;
   }
 }
+
+
