@@ -7,29 +7,22 @@ var gulp = require('gulp'),
     rename = require('gulp-rename'),
     autoprefixer = require('gulp-autoprefixer'),
     browserSync = require('browser-sync').create(),
-    reload      = browserSync.reload;
+    reload      = browserSync.reload,
+    sourcemaps = require('gulp-sourcemaps');
 
 gulp.task('default', ['sass','style', 'scripts','images','browser-sync','watcher']);
 
 gulp.task('sass', function() {
     return gulp.src('./src/scss/**/*.scss') //匹配文件
-	    .pipe(sass({                       //sass模块编译
-	        outputStyle: 'expanded'
-	    }).on('error', sass.logError))
+	    .pipe(sourcemaps.init())
+        .pipe(sass().on('error', sass.logError))
 	    .pipe(autoprefixer({               //进行浏览器兼容
 	        browsers: ['last 10 versions']
 	    }))
-	    //.pipe(gulp.dest('./dist/css'))     //输出一份到dist/css目录
-	    .pipe(minifycss())                 //继续压缩一份
-	    //.pipe(rename("public.min.css"))    //重命名避免覆盖上一次的输出
+        .pipe(sourcemaps.write('./'))
+	    // .pipe(minifycss())                 //继续压缩一份
 	    .pipe(gulp.dest('./dist/css'));    //输出压缩好的新css文件
-      // .pipe(reload({stream: true}));    //文件注入
 });
-
-//gulp.task('fonts',function(){
-//    return gulp.src('./src/font/**/*.ttf')
-//    .pipe(gulp.dest('./dist/font'))
-//})
 
 gulp.task('style',function(){
     return gulp.src('./src/css/**/*.css')
@@ -48,20 +41,11 @@ gulp.task('scripts', function() {
 	    .pipe(gulp.dest('./dist/js'));  // 写入到指定目录
 });
 
-// gulp.task('htmls',function(){
-//     return gulp.src('./src/view/**.html')
-//     .pipe(gulp.dest('./dist/view'));
-// })
 
 gulp.task('images',function(){
    return gulp.src('./src/images/**/*.+(jpeg|jpg|png|gif)')
    .pipe(gulp.dest('./dist/images'));
 })
-
-//gulp.task('imgs',function(){
-//   return gulp.src('./src/img/**/*.+(jpeg|jpg|png|gif)')
-//   .pipe(gulp.dest('./dist/img'));
-//})
 
 gulp.task('watcher', function() {
     gulp.watch("src/scss/**/*.scss", ['sass']).on('change', reload);
