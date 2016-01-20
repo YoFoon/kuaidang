@@ -159,20 +159,10 @@ html {
       animation:phLeft 4s linear infinite both;
     }
     .bl-bag {
-      width: 16.8229%;
+      width: 18.53125%;
       // height: 14.6875%;
-      bottom: 3.5650%;
-      left: 25.1042%;
-      -webkit-animation:showPic 2s ease-in-out both;
-      -moz-animation:showPic 2s ease-in-out both;
-      -ms-animation:showPic 2s ease-in-out both;
-      animation:showPic 2s ease-in-out both;
-    }
-    .bl-jz {
-      width: 2.1354%;
-      // height: 2.6042%;
-      bottom: 6.9519%;
-      left: 17.7083%;
+      bottom: 1.5650%;
+      left: 12.1042%;
       -webkit-animation:showPic 2s ease-in-out both;
       -moz-animation:showPic 2s ease-in-out both;
       -ms-animation:showPic 2s ease-in-out both;
@@ -183,26 +173,6 @@ html {
       // height: 12.5520%;
       bottom: 9.2691%;
       right: 4.4792%;
-      -webkit-animation:showPic 2s ease-in-out both;
-      -moz-animation:showPic 2s ease-in-out both;
-      -ms-animation:showPic 2s ease-in-out both;
-      animation:showPic 2s ease-in-out both;
-    }
-    .br-key {
-      width: 13.8020%;
-      // height: 6.4062%;
-      top: 39.9287%;
-      right: 6.25%;
-      -webkit-animation:showPic 2s ease-in-out both;
-      -moz-animation:showPic 2s ease-in-out both;
-      -ms-animation:showPic 2s ease-in-out both;
-      animation:showPic 2s ease-in-out both;
-    }
-    .br-ph {
-      width: 4.6354%;
-      // height: 6.5104%;
-      bottom: 0;
-      right: 34.375%;
       -webkit-animation:showPic 2s ease-in-out both;
       -moz-animation:showPic 2s ease-in-out both;
       -ms-animation:showPic 2s ease-in-out both;
@@ -221,19 +191,9 @@ html {
     .cl-pc {
       width: 14.6354%;
       // height: 10.3646%;
-      bottom: 31.1943%;
-      left: 4.7917%;
+      top: 16.5238%;
+      left: 7.7917%;
       z-index: 2;
-      -webkit-animation:showPic 2s ease-in-out both;
-      -moz-animation:showPic 2s ease-in-out both;
-      -ms-animation:showPic 2s ease-in-out both;
-      animation:showPic 2s ease-in-out both;
-    }
-    .tl-pc{
-      width: 18.1771%;
-      // height: 15.2604%;
-      top: 8.5561%;
-      left: 7.3958%;
       -webkit-animation:showPic 2s ease-in-out both;
       -moz-animation:showPic 2s ease-in-out both;
       -ms-animation:showPic 2s ease-in-out both;
@@ -244,6 +204,30 @@ html {
       // height: 9.2188%;
       top: 9.2691%;
       right: 17.7083%;
+    }
+    .bl-gold {
+      width: 12.0833%;
+      left: 50%;
+      bottom:2.5%;
+      margin-left: -6.0417%;
+      -webkit-animation:showPic 2s ease-in-out both;
+      -moz-animation:showPic 2s ease-in-out both;
+      -ms-animation:showPic 2s ease-in-out both;
+      animation:showPic 2s ease-in-out both;
+    }
+    .tr-daimond {
+      width: 5.9375%;
+      top: 48.2857%;
+      right: 13.9583%;
+      -webkit-animation:showPic 2s ease-in-out both;
+      -moz-animation:showPic 2s ease-in-out both;
+      -ms-animation:showPic 2s ease-in-out both;
+      animation:showPic 2s ease-in-out both;
+    }
+    .tr-jz {
+      width: 6.25%;
+      top:28%;
+      right: 7.2917%;
       -webkit-animation:showPic 2s ease-in-out both;
       -moz-animation:showPic 2s ease-in-out both;
       -ms-animation:showPic 2s ease-in-out both;
@@ -297,26 +281,30 @@ html {
       top: 30.8571%;
       left: 50%;
       margin-left: -12.474%;
+      -webkit-animation:showPaper 2s ease-in-out .3s both;
+      -moz-animation:showPaper 2s ease-in-out .3s both;
+      -ms-animation:showPaper 2s ease-in-out .3s both;
+      animation:showPaper 2s ease-in-out .3s both;
     }
     .light {
       width: 19.2188%;
       top: 27.3333%;
       left: 50%;
       margin-left: -9.6094%;
-      -webkit-animation:showLight 4s ease-in-out .3s both;
-      -moz-animation:showLight 4s ease-in-out .3s both;
-      -ms-animation:showLight 4s ease-in-out .3s both;
-      animation:showLight 4s ease-in-out .3s both;
+      -webkit-animation:showLight 4s ease-in-out 1s both;
+      -moz-animation:showLight 4s ease-in-out 1s both;
+      -ms-animation:showLight 4s ease-in-out 1s both;
+      animation:showLight 4s ease-in-out 1s both;
     }
     .big-paper {
       width: 11.9271%;
       top: 28.5714%;
       left: 50%;
       margin-left: -5.9635%;
-      -webkit-animation:showText 4s ease-in-out .3s both;
-      -moz-animation:showText 4s ease-in-out .3s both;
-      -ms-animation:showText 4s ease-in-out .3s both;
-      animation:showText 4s ease-in-out .3s both;
+      -webkit-animation:showText 4s ease-in-out 1s both;
+      -moz-animation:showText 4s ease-in-out 1s both;
+      -ms-animation:showText 4s ease-in-out 1s both;
+      animation:showText 4s ease-in-out 1s both;
     }
     .m-round1{
       @include round($color:rgba(255,0,0,0.3),$top:20.7%,$left:18.4375%)
@@ -383,7 +371,7 @@ html {
         width: 15.5729%;
         //height: 30.9524%;
         top: 16.381%;
-        left: 9.4271%;
+        left: 12.1271%;
         z-index: 9;
         -webkit-animation:dragDown 1s ease-in-out 1s both;
         -moz-animation:dragDown 1s ease-in-out 1s both;
@@ -1336,5 +1324,58 @@ html {
   }
   100% {
     opacity: 1;
+  }
+}
+
+@-webkit-keyframes showPaper {
+  0% {
+    opacity: 0;
+    transform:translateY(100%);
+  }
+  50{
+    opacity: .6;
+  }
+  100 {
+    opacity: 1;
+    transform:translateY(0);
+  }
+}
+@-o-keyframes showPaper {
+  0% {
+    opacity: 0;
+    transform:translateY(100%);
+  }
+  50{
+    opacity: .6;
+  }
+  100 {
+    opacity: 1;
+    transform:translateY(0);
+  }
+}
+@-moz-keyframes showPaper {
+  0% {
+    opacity: 0;
+    transform:translateY(100%);
+  }
+  50{
+    opacity: .6;
+  }
+  100 {
+    opacity: 1;
+    transform:translateY(0);
+  }
+}
+@keyframes showPaper {
+  0% {
+    opacity: 0;
+    transform:translateY(100%);
+  }
+  50{
+    opacity: .6;
+  }
+  100 {
+    opacity: 1;
+    transform:translateY(0);
   }
 }

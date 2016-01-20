@@ -117,33 +117,15 @@ html {
       -webkit-animation: phLeft 4s linear  infinite both;
       animation: phLeft 4s linear infinite both; }
     #pageContain .page1 .bl-bag {
-      width: 16.8229%;
-      bottom: 3.5650%;
-      left: 25.1042%;
-      -webkit-animation: showPic 2s ease-in-out both;
-      animation: showPic 2s ease-in-out both; }
-    #pageContain .page1 .bl-jz {
-      width: 2.1354%;
-      bottom: 6.9519%;
-      left: 17.7083%;
+      width: 18.53125%;
+      bottom: 1.5650%;
+      left: 12.1042%;
       -webkit-animation: showPic 2s ease-in-out both;
       animation: showPic 2s ease-in-out both; }
     #pageContain .page1 .br-cam {
       width: 9.6354%;
       bottom: 9.2691%;
       right: 4.4792%;
-      -webkit-animation: showPic 2s ease-in-out both;
-      animation: showPic 2s ease-in-out both; }
-    #pageContain .page1 .br-key {
-      width: 13.8020%;
-      top: 39.9287%;
-      right: 6.25%;
-      -webkit-animation: showPic 2s ease-in-out both;
-      animation: showPic 2s ease-in-out both; }
-    #pageContain .page1 .br-ph {
-      width: 4.6354%;
-      bottom: 0;
-      right: 34.375%;
       -webkit-animation: showPic 2s ease-in-out both;
       animation: showPic 2s ease-in-out both; }
     #pageContain .page1 .br-watch {
@@ -154,21 +136,32 @@ html {
       animation: showPic 2s ease-in-out both; }
     #pageContain .page1 .cl-pc {
       width: 14.6354%;
-      bottom: 31.1943%;
-      left: 4.7917%;
+      top: 16.5238%;
+      left: 7.7917%;
       z-index: 2;
-      -webkit-animation: showPic 2s ease-in-out both;
-      animation: showPic 2s ease-in-out both; }
-    #pageContain .page1 .tl-pc {
-      width: 18.1771%;
-      top: 8.5561%;
-      left: 7.3958%;
       -webkit-animation: showPic 2s ease-in-out both;
       animation: showPic 2s ease-in-out both; }
     #pageContain .page1 .tr-ph {
       width: 4.8438%;
       top: 9.2691%;
-      right: 17.7083%;
+      right: 17.7083%; }
+    #pageContain .page1 .bl-gold {
+      width: 12.0833%;
+      left: 50%;
+      bottom: 2.5%;
+      margin-left: -6.0417%;
+      -webkit-animation: showPic 2s ease-in-out both;
+      animation: showPic 2s ease-in-out both; }
+    #pageContain .page1 .tr-daimond {
+      width: 5.9375%;
+      top: 48.2857%;
+      right: 13.9583%;
+      -webkit-animation: showPic 2s ease-in-out both;
+      animation: showPic 2s ease-in-out both; }
+    #pageContain .page1 .tr-jz {
+      width: 6.25%;
+      top: 28%;
+      right: 7.2917%;
       -webkit-animation: showPic 2s ease-in-out both;
       animation: showPic 2s ease-in-out both; }
   #pageContain .page2 {
@@ -205,21 +198,23 @@ html {
       width: 24.9497%;
       top: 30.8571%;
       left: 50%;
-      margin-left: -12.474%; }
+      margin-left: -12.474%;
+      -webkit-animation: showPaper 2s ease-in-out .3s both;
+      animation: showPaper 2s ease-in-out .3s both; }
     #pageContain .page2 .light {
       width: 19.2188%;
       top: 27.3333%;
       left: 50%;
       margin-left: -9.6094%;
-      -webkit-animation: showLight 4s ease-in-out .3s both;
-      animation: showLight 4s ease-in-out .3s both; }
+      -webkit-animation: showLight 4s ease-in-out 1s both;
+      animation: showLight 4s ease-in-out 1s both; }
     #pageContain .page2 .big-paper {
       width: 11.9271%;
       top: 28.5714%;
       left: 50%;
       margin-left: -5.9635%;
-      -webkit-animation: showText 4s ease-in-out .3s both;
-      animation: showText 4s ease-in-out .3s both; }
+      -webkit-animation: showText 4s ease-in-out 1s both;
+      animation: showText 4s ease-in-out 1s both; }
     #pageContain .page2 .m-round1 {
       width: 45px;
       height: 45px;
@@ -308,7 +303,7 @@ html {
     #pageContain .page3 .left-bag .left-bag-img {
       width: 15.5729%;
       top: 16.381%;
-      left: 9.4271%;
+      left: 12.1271%;
       z-index: 9;
       -webkit-animation: dragDown 1s ease-in-out 1s both;
       animation: dragDown 1s ease-in-out 1s both; }
@@ -833,5 +828,29 @@ html {
     opacity: 0; }
   100% {
     opacity: 1; } }
+
+@-webkit-keyframes showPaper {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(100%);
+            transform: translateY(100%); }
+  50 {
+    opacity: .6; }
+  100 {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+            transform: translateY(0); } }
+
+@keyframes showPaper {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(100%);
+            transform: translateY(100%); }
+  50 {
+    opacity: .6; }
+  100 {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+            transform: translateY(0); } }
 
 /*# sourceMappingURL=page.css.map */
