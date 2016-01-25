@@ -2,7 +2,7 @@ var runPage;
 runPage = new FullPage({
   id : 'pageContain',
   slideTime : 400,
-  continuous : true,
+  continuous : false,
   effect : {
     transform : {
       translate : 'Y',
