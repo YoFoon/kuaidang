@@ -331,27 +331,27 @@ html {
       left: 16.5104%;
       -webkit-animation: dragDown 1s ease-in-out 3s both;
       animation: dragDown 1s ease-in-out 3s both; }
-    #pageContain .page3 .center-watch .up-line {
+    #pageContain .page3 .center-cam .up-line {
       height: 28.4762%;
       top: 27.3333%;
       left: 44.2188%;
       -webkit-animation: dragDown 1s ease-in-out 4s both;
       animation: dragDown 1s ease-in-out 4s both; }
-    #pageContain .page3 .center-watch .center-watch-img {
+    #pageContain .page3 .center-cam .center-cam-img {
       width: 9.1667%;
       height: 29.5238%;
       top: 54.7619%;
-      left: 39.9479%;
+      left: 40.479%;
       z-index: 9;
       -webkit-animation: dragDown 1s ease-in-out 5s both;
       animation: dragDown 1s ease-in-out 5s both; }
-    #pageContain .page3 .center-watch .bottom-line {
+    #pageContain .page3 .center-cam .bottom-line {
       height: 15.81%;
       top: 70.4762%;
       left: 44.1146%;
       -webkit-animation: dragDown 1s ease-in-out 6s both;
       animation: dragDown 1s ease-in-out 6s both; }
-    #pageContain .page3 .center-watch .discount-text {
+    #pageContain .page3 .center-cam .discount-text {
       width: 3.0729%;
       height: 11.619%;
       top: 86.0952%;
@@ -433,8 +433,8 @@ html {
       font-size: 40px;
       text-align: center;
       color: #888888; }
-    #pageContain .page4 .bl-watch {
-      width: 10.052%;
+    #pageContain .page4 .bl-ph {
+      width: 18.0729%;
       bottom: 11.2857%;
       left: 20.3125%;
       -webkit-animation: hammerShow .5s ease-in-out 1s both;

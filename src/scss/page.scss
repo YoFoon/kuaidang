@@ -418,7 +418,7 @@ html {
         animation:dragDown 1s ease-in-out 3s both;
       }
     }
-    .center-watch {
+    .center-cam {
       .up-line {
         height: 28.4762%;
         top: 27.3333%;
@@ -428,11 +428,11 @@ html {
         -ms-animation:dragDown 1s ease-in-out 4s both;
         animation:dragDown 1s ease-in-out 4s both;
       }
-      .center-watch-img {
+      .center-cam-img {
         width: 9.1667%;
         height: 29.5238%;
         top: 54.7619%;
-        left: 39.9479%;
+        left: 40.479%;
         z-index: 9;
         -webkit-animation:dragDown 1s ease-in-out 5s both;
         -moz-animation:dragDown 1s ease-in-out 5s both;
@@ -570,8 +570,8 @@ html {
       text-align: center;
       color: #888888;
     }
-    .bl-watch {
-      width: 10.052%;
+    .bl-ph {
+      width: 18.0729%;
       bottom: 11.2857%;
       left: 20.3125%;
       -webkit-animation:hammerShow .5s ease-in-out 1s both;
