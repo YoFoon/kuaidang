@@ -14,3 +14,8 @@ runPage = new FullPage({
   mode : 'wheel,touch',
   easing : 'ease'
 });
+
+
+function goNext() {
+  runPage.next();
+}
