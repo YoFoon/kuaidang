@@ -226,8 +226,18 @@ html {
     }
     .tr-jz {
       width: 6.25%;
-      top:28%;
+      top:35%;
       right: 7.2917%;
+      -webkit-animation:showPic 2s ease-in-out both;
+      -moz-animation:showPic 2s ease-in-out both;
+      -ms-animation:showPic 2s ease-in-out both;
+      animation:showPic 2s ease-in-out both;
+    }
+
+    .qrcode{
+      width: 10%;
+      top:60px;
+      right: 1%;
       -webkit-animation:showPic 2s ease-in-out both;
       -moz-animation:showPic 2s ease-in-out both;
       -ms-animation:showPic 2s ease-in-out both;
@@ -323,6 +333,16 @@ html {
     }
     .m-round6{
       @include round($wh:66px,$color:rgba(0,136,240,0.3),$top:68.19%,$left:70.1325%)
+    }
+
+    .qrcode{
+      width: 10%;
+      top:1%;
+      left: 1%;
+      -webkit-animation:showPic 2s ease-in-out both;
+      -moz-animation:showPic 2s ease-in-out both;
+      -ms-animation:showPic 2s ease-in-out both;
+      animation:showPic 2s ease-in-out both;
     }
   }
 
@@ -521,6 +541,15 @@ html {
         animation:dragDown 1s ease-in-out 7s both;
       }
     }
+    .qrcode{
+      width: 10%;
+      top:1%;
+      right: 1%;
+      -webkit-animation:showPic 2s ease-in-out both;
+      -moz-animation:showPic 2s ease-in-out both;
+      -ms-animation:showPic 2s ease-in-out both;
+      animation:showPic 2s ease-in-out both;
+    }
   }
 
   /*-------------------------------- 第四页 ------------------------------------*/
@@ -618,6 +647,15 @@ html {
     }
     .m-round4{
       @include round($wh:66px,$color:rgba(0,136,240,0.2),$top:67.2%,$left:60.39%);
+    }
+    .qrcode{
+      width: 10%;
+      bottom:1%;
+      right: 1%;
+      -webkit-animation:showPic 2s ease-in-out both;
+      -moz-animation:showPic 2s ease-in-out both;
+      -ms-animation:showPic 2s ease-in-out both;
+      animation:showPic 2s ease-in-out both;
     }
   }
 }
